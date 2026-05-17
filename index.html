@@ -3,9 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Medidas descritivas</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header class="bg-primary text-light d-flex align-items-center">
+        <h4>Cálculo de medidas descritivas</h4>
+    </header>
+    <form id="numbers-form" class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <label for="numbers">Digite o conjunto de números:</label>
+                <input type="text" name="numbers" id="numbers" class="form-control mb-3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-auto">
+                <button class="btn btn-success">Calcular</button>
+            </div>
+        </div>
+    </form>
+    <div class="container">
+        <div class="row">
+            <div class=" table-responsive col-md-10 col-12">
+                <table class="table">
+                    <colgroup>
+                        <col style="width: 30%;">
+                    </colgroup>
+                    <tr>
+                        <th>Números</th>
+                        <th>Mediana</th>
+                        <th>Variância</th>
+                        <th>Desvio padrão</th>
+                        <th>Coeficiente de variação</th>
+                        <th>Homogeneidade</th>
+                    </tr>
+                    <tr>
+                        <td class="text-wrap">12, 12321, 123, 123,123213, 12, 12, 12, 12, 12312312312312</td>
+                        <td>23</td>
+                        <td>34</td>
+                        <td>45</td>
+                        <td>56</td>
+                        <td>67</td>
+                    </tr>
+                </table>
+            </div>
+            
+            </div>
+        
+    </div>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
