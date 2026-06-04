@@ -19,6 +19,8 @@ function calcularMediana(nums) {
     return mediana;
 }
 
+
+
 function teste() {
     
 }
